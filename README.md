@@ -1,9 +1,9 @@
-##Cenário fictício
+## Cenário fictício
 
 Cliente precisa de consultar um cpnj com CEP de forma rapida.
 O cliente precisa inserir novas atividade secundarias para o cnpj consultado
 
-##O que deve ser feito?
+## O que deve ser feito?
 
 Fazer o clone do projeto.
 
@@ -29,26 +29,21 @@ Devera preencher o formulario abaixo com a seguintes regras:
 
 
 
-##APIs:
+## APIs:
 
-GET: https://receitaws.com.br/v1/cnpj/00776574000660
-GET: https://cep.parcelosuaconta.com.br/api/v1/logradouros/cep/74010010
+-GET: https://receitaws.com.br/v1/cnpj/00776574000660
+-GET: https://cep.parcelosuaconta.com.br/api/v1/logradouros/cep/74010010
+-POST: https://api.calamaro.com.br/api/v1/auth/login
 
-POST: https://api.calamaro.com.br/api/v1/auth/login
 login: marcelo123@datarow.com.br
+
 senha: 123123
 
 Ira retorno a propriedade token.
 Esse token é o bearer token para usar na proxima requisição para salvar as informações:
 
 
-Codigo atividade Principal
-Nome da atividade Principal
-
-
-
-
-##Biblioteca
-https://quasar.dev/
-https://br.vuejs.org/v2/guide/reactivity.html
-https://vuex.vuejs.org/guide/getters.html#property-style-access
+## Biblioteca
+-https://quasar.dev/
+-https://br.vuejs.org/v2/guide/reactivity.html
+-https://vuex.vuejs.org/guide/getters.html#property-style-access
