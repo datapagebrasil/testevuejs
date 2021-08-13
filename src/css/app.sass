@@ -1,0 +1,47 @@
+// app global css in Sass form
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-weight: normal
+  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-Serif
+
+// container
+.container
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+//responsive
+@media (min-width: 576px)
+  .container
+    max-width: 540px
+@media (min-width: 768px)
+  .container
+    max-width: 820px
+@media (min-width: 992px)
+  .container
+    max-width: 960px
+@media (min-width: 1200px)
+  .container
+    max-width: 1140px
+b, strong
+  font-weight: bold
+// layout
+hr
+  width : 100%
+  float: left
+  transition: .5s ease
+  border-top: 1px solid #dedede
+  border-bottom: none
+.header-principal
+  box-shadow: 0 0 12px rgba(0,0,0,0.1)
+  padding: 8px 0
+  & .main-logo
+    width: 160px
+    height: 100%
+
+.card-form
+  background: white
+  border-radius: 20px
