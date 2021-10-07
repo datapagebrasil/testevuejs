@@ -3,13 +3,33 @@
     <div class="row q-col-gutter-md justify-center items-center q-mt-lg">
       <div class="col-md-6 col-xs-12">
         <div class="card-form q-pa-lg">
-          <div class="row q-col-gutter-md">
-            <div class="col-12 text-center q-mt-md">
-              <h5 class="text-weight-bold">Datapage Soluções Tecnológicas</h5>
-              <p class="text-grey-7">email@datapage.com.br</p>
-              <p class="text-grey-7 q-mt-md">
-                <q-badge class="text-subtitle2" color="positive" round>Cadastro Ativo</q-badge>
-              </p>
+          <div class="row q-col-gutter-md"><div class="col-12 text-center q-mt-md">
+            <h5 class="text-weight-bold">{{ nomeComp }}</h5>
+            <p class="text-grey-7">{{ emailComp }}</p>
+            <h6 class="text-weight-bold">Quantidade de colaboradore(s): {{ dados[2][0] }}</h6>
+            <p class="text-grey-7 q-mt-md">
+              <q-badge class="text-subtitle2" :color="situacaoComp == 'ativa' ? 'positive' : 'negative'" round>
+                Situacao: {{ situacaoComp }}
+              </q-badge>
+            </p>
+          </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-xs-9">
+                  <h5 class="text-h6 q-mb-sm">Quantidade de Colaboradores</h5>
+                </div>
+                <div class="col-xs-3">
+                  <div class="flex justify-between items-center">
+                    <button class="btn-acao-card left">
+                      <q-icon name="remove"></q-icon>
+                    </button>
+                    <div class="valor"> {{ dados[2][0] }}</div>
+                    <button class="btn-acao-card right">
+                      <q-icon name="add"></q-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-12">
               <div class="row q-col-gutter-md justify-center">
