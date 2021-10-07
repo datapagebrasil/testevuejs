@@ -46,7 +46,6 @@ Irá retornar a propriedade token.
 
 Esse token é o bearer token para usar na próxima requisição para salvar o formulario.
 
-
 ## Plugin Chrome
 Fazer requisição para dominios diferentes [cors]
 
