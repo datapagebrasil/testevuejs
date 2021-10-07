@@ -44,9 +44,13 @@ senha: 123123
 
 Irá retornar a propriedade token.
 
-Esse token é o bearer token para usar na próxima requisição para salvar as informações:
+Esse token é o bearer token para usar na próxima requisição para salvar o formulario.
 
 
+## Plugin Chrome
+Fazer requisição para dominios diferentes [cors]
+
+-https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 ## Biblioteca
 -https://quasar.dev/
 -https://br.vuejs.org/v2/guide/reactivity.html
